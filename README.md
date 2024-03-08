@@ -21,5 +21,3 @@ Strategic Planning, Deciding between anemic and rich domain model
 - Daily tips about health
 - Printing custom plans, recipes etc.
 - And much more...
-
-Please don't judge the progress and current state of project as it is mostly on paper for the time being.
