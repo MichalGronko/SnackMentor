@@ -10,4 +10,8 @@
       <ProjectReference Include="..\SnackMentor.Core\SnackMentor.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Extensions\" />
+    </ItemGroup>
+
 </Project>
