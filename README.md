@@ -2,7 +2,9 @@
 An application that makes it easier to carry out a personalized diet on a daily basis.
 
 # Current Phase
-Strategic Planning, Deciding between anemic and rich domain model
+Strategic Planning, Deciding between anemic and rich domain model. \
+Sorry for keeping it in near abandoned state but I want to do it right. \
+Learning takes time, be patient.
 
 # Planned functions
 
