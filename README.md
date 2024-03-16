@@ -11,6 +11,7 @@ Currently working on UnitsNet library to find out the best way of unit conversio
 # Planned functions
 
 - Adding custom ingredients/products, dishes/meals, recipes, plans
+- Sped up process of adding products based on existing ones
 - Converting between different units like grams, cups, ounces, etc.,
 - Ability to use both built-in database of products and custom ones
 - Calculating calories and macronutrients
