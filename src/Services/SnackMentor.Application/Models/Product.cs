@@ -1,6 +1,6 @@
 ﻿namespace SnackMentor.Application.Models;
 
-public sealed class Ingredient
+public sealed class Product
 {
     public required int Id { get; set; }
     public required string Name { get; set; }
@@ -12,4 +12,7 @@ public sealed class Ingredient
     public required string? Manufacturer { get; set; }
 
     public required IEnumerable<Attribute> Attributes { get; set; }
+
+    public required MacroNutrients MacroNutrients { get; set; }
+    public required IEnumerable<MicroNutrients> MicroNutrients { get; set; }
 }
