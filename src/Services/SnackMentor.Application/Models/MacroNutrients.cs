@@ -31,7 +31,6 @@ public sealed class MacroNutrients
     {
         Volume fatVolume = fatDensity / solutionDensity * Volume.FromMilliliters(100);
         Mass fatMass = fatDensity * fatVolume;
-        var f = fatMass.Grams;
         
         Volume carbsVolume = carbsDensity / solutionDensity * Volume.FromMilliliters(100);
         Mass carbsMass = carbsDensity * carbsVolume;
