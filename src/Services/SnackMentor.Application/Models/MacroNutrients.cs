@@ -29,36 +29,13 @@ public sealed class MacroNutrients
 
     public static MacroNutrients CreateNew(Density fatDensity, Density carbsDensity, Density proteinDensity, Density solutionDensity)
     {
-        Volume fatVolume = fatDensity / solutionDensity * Volume.FromMilliliters(100);
-        Mass fatMass = fatDensity * fatVolume;
-        
-        Volume carbsVolume = carbsDensity / solutionDensity * Volume.FromMilliliters(100);
-        Mass carbsMass = carbsDensity * carbsVolume;
-        
-        Volume proteinVolume = proteinDensity / solutionDensity * Volume.FromMilliliters(100);
-        Mass proteinMass = proteinDensity * proteinVolume;
-        
-        Mass solutionMass = solutionDensity * Volume.FromMilliliters(100);
-
-        Mass fatPer100Grams = Mass.FromGrams(100) * fatMass.Grams / solutionMass.Grams;
-        Mass carbsPer100Grams = Mass.FromGrams(100) * carbsMass.Grams / solutionMass.Grams;
-        Mass proteinPer100Grams = Mass.FromGrams(100) * proteinMass.Grams / solutionMass.Grams;
-
-        // Volume volumeIn100g = Volume.FromLiters(0.1);
-        //
-        // Volume fatVolume = fatDensity / solutionDensity * volumeIn100g;
-        // Volume proteinVolume = proteinDensity / solutionDensity * volumeIn100g;
-        // Volume carbsVolume = carbsDensity / solutionDensity * volumeIn100g;
-        //
-        // Mass fatPer100g = fatVolume
-        // Mass proteinPer100g = proteinVolume.Mass;
-        // Mass carbsPer100g = carbsVolume.Mass;
+        Mass mass = Mass.FromGrams(100);
 
         return new MacroNutrients
         {
-            Fat = fatPer100Grams,
-            Carbohydrates = carbsPer100Grams,
-            Protein = proteinPer100Grams
+            Fat = mass * (fatDensity / solutionDensity),
+            Carbohydrates = mass * (carbsDensity / solutionDensity),
+            Protein = mass * (proteinDensity / solutionDensity)
         };
     }
     
