@@ -16,28 +16,22 @@ public sealed class MacroNutrients
             Protein = protein
         };
 
-    public static MacroNutrients CreateFromPercentMass(double fatPercent, double carbsPercent, double proteinPercent)
-    {
-        Mass mass = Mass.FromGrams(100);
-
-        return new MacroNutrients
+    public static MacroNutrients CreateFromPercentMass(double fatPercent, double carbsPercent, double proteinPercent) 
+        => new()
         {
-            Fat = mass * fatPercent,
-            Carbohydrates = mass * carbsPercent,
-            Protein = mass * proteinPercent
+            Fat = Mass.FromGrams(100) * fatPercent,
+            Carbohydrates = Mass.FromGrams(100) * carbsPercent,
+            Protein = Mass.FromGrams(100) * proteinPercent
         };
-    }
 
     public static MacroNutrients CreateFromDensity(Density fatDensity, Density carbsDensity, Density proteinDensity,
         Density solutionDensity)
     {
-        Mass mass = Mass.FromGrams(100);
-
         return new MacroNutrients
         {
-            Fat = mass * (fatDensity / solutionDensity),
-            Carbohydrates = mass * (carbsDensity / solutionDensity),
-            Protein = mass * (proteinDensity / solutionDensity)
+            Fat = Mass.FromGrams(100) * (fatDensity / solutionDensity),
+            Carbohydrates = Mass.FromGrams(100) * (carbsDensity / solutionDensity),
+            Protein = Mass.FromGrams(100) * (proteinDensity / solutionDensity)
         };
     }
 }
