@@ -8,6 +8,8 @@ public sealed class MacroNutrients
     public Mass Carbohydrates { get; private set; }
     public Mass Protein { get; private set; }
     
+    private MacroNutrients() { }
+    
     public static MacroNutrients CreateFromMass(Mass fat, Mass carbs, Mass protein) 
         => new()
         {
