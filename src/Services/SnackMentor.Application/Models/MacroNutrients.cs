@@ -2,7 +2,7 @@
 
 namespace SnackMentor.Application.Models;
 
-public sealed class MacroNutrients
+public sealed record MacroNutrients
 {
     public Mass Fat { get; private set; }
     public Mass Carbohydrates { get; private set; }
