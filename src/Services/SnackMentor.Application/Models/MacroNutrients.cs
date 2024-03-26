@@ -10,7 +10,7 @@ public sealed record MacroNutrients
     
     private MacroNutrients() { }
     
-    public static MacroNutrients CreateFromMass(Mass fat, Mass carbs, Mass protein) 
+    public static MacroNutrients FromMass(Mass fat, Mass carbs, Mass protein) 
         => new()
         {
             Fat = fat,
@@ -18,7 +18,7 @@ public sealed record MacroNutrients
             Protein = protein
         };
 
-    public static MacroNutrients CreateFromPercentMass(double fatPercent, double carbsPercent, double proteinPercent) 
+    public static MacroNutrients FromPercentMass(double fatPercent, double carbsPercent, double proteinPercent) 
         => new()
         {
             Fat = Mass.FromGrams(100) * fatPercent,
@@ -26,7 +26,7 @@ public sealed record MacroNutrients
             Protein = Mass.FromGrams(100) * proteinPercent
         };
 
-    public static MacroNutrients CreateFromDensity(Density fatDensity, Density carbsDensity, Density proteinDensity,
+    public static MacroNutrients FromDensity(Density fatDensity, Density carbsDensity, Density proteinDensity,
         Density solutionDensity)
     {
         return new MacroNutrients
