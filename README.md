@@ -6,8 +6,6 @@ Strategic Planning, Deciding between anemic and rich domain model. \
 Sorry for keeping it in near abandoned state but I want to do it right. \
 Learning takes time, be patient.
 
-Currently working on UnitsNet library to find out the best way of unit conversion
-
 # Planned functions
 
 - Adding custom ingredients/products, dishes/meals, recipes, plans
