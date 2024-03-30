@@ -2,8 +2,9 @@
 
 public enum IngredientType
 {
-    Unprocessed,
-    MinimallyProcessed,
-    Processed,
-    UltraProcessed
+    Unknown = 0,
+    Unprocessed = 1,
+    MinimallyProcessed = 2,
+    Processed = 3,
+    UltraProcessed = 4
 }
