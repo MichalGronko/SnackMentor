@@ -1,3 +1,5 @@
+![Snack Mentor Logo with steamy bowl of soup](img/snack_mentor_logo.png)
+
 # SnackMentor
 An application that makes it easier to carry out a personalized diet on a daily basis. \
 It will take care for all of the tedious calculations and preparations for you.
