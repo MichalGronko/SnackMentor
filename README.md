@@ -1,5 +1,6 @@
 # SnackMentor
-An application that makes it easier to carry out a personalized diet on a daily basis.
+An application that makes it easier to carry out a personalized diet on a daily basis. \
+It will take care for all of the tedious calculations and preparations for you.
 
 # Current Phase
 Strategic Planning, Deciding between anemic and rich domain model. \
@@ -20,6 +21,7 @@ Learning takes time, be patient........
 - Adding chosen products/meals/etc. to favourites
 - Blacklisting unwanted ingredients and/or meals
 - Sharing meal plans with friends
+- Automatic creation of shopping lists based on meal plans
 - Tracking diet progress
 - Daily tips about health
 - Printing custom plans, recipes etc.
