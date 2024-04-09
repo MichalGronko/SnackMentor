@@ -20,6 +20,7 @@ Learning takes time, be patient..........
 - Ability to personalize micronutrients norms
 - Suggesting calories needs based on body parameters
 - Pointing out allergens
+- Identification of food additives, their technological functions and harmfulness
 - Adding chosen products/meals/etc. to favourites
 - Blacklisting unwanted ingredients and/or meals
 - Sharing meal plans with friends
