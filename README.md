@@ -2,7 +2,7 @@
 
 # SnackMentor
 An application that makes it easier to carry out a personalized diet on a daily basis. \
-It will take care for all of the tedious calculations and preparations for you.
+It will take care for all the tedious calculations and preparations for you.
 
 # Current Phase
 Strategic Planning, Deciding between anemic and rich domain model. \
