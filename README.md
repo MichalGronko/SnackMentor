@@ -6,7 +6,7 @@ It will take care for all the tedious calculations and preparations for you.
 
 # Current Phase
 Strategic Planning, Deciding between anemic and rich domain model. \
-Sorry for keeping it in near abandoned state but I want to do it right. \
+Sorry for keeping it in near abandoned state, but I want to do it right. \
 Learning takes time, be patient....
 
 # Planned functions
